@@ -1,0 +1,159 @@
+/* all common css statr here */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+.container {
+  padding: 10px;
+  width: 1175px;
+
+  margin: 0 auto;
+  /* background-color: red; */
+}
+/* all common css ends here */
+
+/* all header style statr here */
+.headerContainer {
+  /* padding-top: 165px; */
+  background-image: url(../images/Group\ 3988.png);
+  height: 837px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  /* background-color: teal; */
+}
+.menuBtn {
+  display: flex;
+  align-items: center;
+  gap: 51px;
+}
+.menu ul {
+  display: flex;
+  gap: 71px;
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 18px;
+  color: #474747;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.btn {
+  padding: 18px 35px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+/*.headingandimage{
+    display: flex;
+     align-items: center; */
+
+.heading {
+  margin-top: 297px;
+  height: 356px;
+  width: 585px;
+}
+.heading h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  color: #474747;
+}
+.heading h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  color: #181818;
+}
+.heading p {
+  line-height: 30px;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 18px;
+  color: #757575;
+}
+.image {
+  /* margin-top: 161px; */
+  position: absolute;
+  z-index: 1;
+  top: 161px;
+  bottom: 0;
+  right: 38px;
+}
+.btndownload {
+  padding: 19px 17px 18px 17px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+}
+.vector {
+  padding-right: 10px;
+}
+.btnContact {
+  padding: 19px 23px 18px 24px;
+  background-color: transparent;
+  border-radius: 5px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fd6e0a;
+  display: inline-block;
+  border: 2px solid #fd6e0a;
+}
+.contact {
+  height: 19px;
+  width: 19px;
+  padding-right: 10px;
+}
+.btnDownloadContact {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 184px;
+}
+.devloper {
+  height: 136px;
+  width: 774px;
+  letter-spacing: 33%;
+  position: absolute;
+  top: 350px;
+  left: -310px;
+  transform: rotate(270deg);
+  z-index: 1;
+
+  background-color: transparent;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  color: #181818;
+  opacity: 15%;
+}
+/* all hedear style ends here */
+/* all common css statr here */
