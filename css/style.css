@@ -19,6 +19,9 @@ li {
   margin: 0 auto;
   /* background-color: red; */
 }
+body {
+  /* background-color: #1e1e1e; */
+}
 /* all common css ends here */
 
 /* all header style statr here */
@@ -183,6 +186,7 @@ li {
   background-color: #fff8f3;
   text-align: center;
   margin-top: 130px;
+  border-radius: 5px;
 }
 .aboutMe h2 {
   font-family: "Open Sans", sans-serif;
@@ -225,3 +229,65 @@ td {
   color: #474747;
 }
 /* about section style ends here */
+/* what i do section style starts here */
+.whatIdoContainer {
+  text-align: center;
+  margin-top: 130px;
+}
+.whatIdoContainer h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.whatIdoContainer p {
+  height: 90px;
+  width: 909px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin: 30px auto 50px auto;
+}
+.languageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.languageBox {
+  width: 267px;
+  height: 377px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+.language {
+  height: 243px;
+  width: 204px;
+  background-color: transparent;
+  margin: 104px 33px 30px 30px;
+}
+.language h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  text-align: left;
+}
+.language p {
+  height: 196px;
+  width: 201px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin: 0 auto;
+}
+.langImg {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+/* what i do section style ends here */
