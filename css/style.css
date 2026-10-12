@@ -14,7 +14,7 @@ li {
 }
 .container {
   padding: 10px;
-  width: 1175px;
+  width: 1140px;
 
   margin: 0 auto;
   /* background-color: red; */
@@ -46,6 +46,9 @@ li {
   font-size: 18px;
   color: #474747;
 }
+.link:hover {
+  color: #fd6e0a;
+}
 
 .header {
   display: flex;
@@ -57,11 +60,16 @@ li {
   padding: 18px 35px;
   background-color: #fd6e0a;
   border-radius: 5px;
-
+  border: 1px solid #fd6e0a;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: #ffffff;
+}
+.btn:hover {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  background: transparent;
 }
 /*.headingandimage{
     display: flex;
@@ -111,20 +119,30 @@ li {
   color: #ffffff;
   display: inline-block;
 }
-.vector {
+.btndownload:hover {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  background: transparent;
+}
+.gap {
   padding-right: 10px;
 }
 .btnContact {
   padding: 19px 23px 18px 24px;
-  background-color: transparent;
+  background-color: #fd6e0a;
   border-radius: 5px;
 
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #fd6e0a;
+  color: #ffffff;
   display: inline-block;
-  border: 2px solid #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+.btnContact:hover {
+  border: 1px solid #fd6e0a;
+  background: transparent;
+  color: #fd6e0a;
 }
 .contact {
   height: 19px;
@@ -155,5 +173,6 @@ li {
   color: #181818;
   opacity: 15%;
 }
+
 /* all hedear style ends here */
 /* all common css statr here */
