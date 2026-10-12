@@ -48,6 +48,7 @@ li {
 }
 .link:hover {
   color: #fd6e0a;
+  transition: 0.4s;
 }
 
 .header {
@@ -144,11 +145,11 @@ li {
   background: transparent;
   color: #fd6e0a;
 }
-.contact {
+/* .contact {
   height: 19px;
   width: 19px;
   padding-right: 10px;
-}
+} */
 .btnDownloadContact {
   display: flex;
   gap: 30px;
@@ -175,4 +176,52 @@ li {
 }
 
 /* all hedear style ends here */
-/* all common css statr here */
+
+/* about section style statr here */
+.aboutMe {
+  padding: 131px 157px 131px 156px;
+  background-color: #fff8f3;
+  text-align: center;
+  margin-top: 130px;
+}
+.aboutMe h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.aboutMe p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+}
+/* .informationTable {
+  t: cen;
+}
+table {
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+th,
+td {
+  padding: 5px;
+  gap: 50px;
+} */
+.informationContainer {
+  height: 60px;
+  width: 782px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  /* gap: 50px; */
+}
+.information h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+/* about section style ends here */
