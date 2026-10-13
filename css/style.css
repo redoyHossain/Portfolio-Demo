@@ -291,3 +291,61 @@ td {
   left: 30px;
 }
 /* what i do section style ends here */
+/* summary section starts here */
+.summaryContainer {
+  text-align: center;
+  padding-bottom: 113px;
+  padding-top: 130px;
+}
+.summaryContainer h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.summary {
+  width: 558px;
+  text-align: left;
+}
+.summary h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.summary h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.summary h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.summary p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+  width: 451px;
+}
+.educationExperince {
+  display: flex;
+  gap: 20px;
+  margin-top: 113px;
+  margin-bottom: 50px;
+}
+.education {
+  background-color: transparent;
+}
+.experience {
+  background-color: transparent;
+}
+/* summary section ends here */
