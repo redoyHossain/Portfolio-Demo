@@ -349,3 +349,72 @@ td {
   background-color: transparent;
 }
 /* summary section ends here */
+/* footer section starts here */
+.footerContainer {
+  background-color: #fff8f3;
+}
+.footer {
+  padding: 130px 0;
+
+  display: flex;
+  gap: 117px;
+}
+.left {
+}
+.left h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+
+  margin-bottom: 20px;
+}
+.left p {
+  width: 562px;
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 16px;
+  color: #474747;
+
+  margin-bottom: 30px;
+}
+.right {
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.right h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.input {
+  display: block;
+  background-color: #ffffff;
+  padding: 18px 349px 18px 30px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: none;
+  outline: none;
+}
+.Submitbtn {
+  padding: 18px 39px 19px 39px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 24px;
+}
+.Submitbtn:hover {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  background: transparent;
+}
+/* footer section ends here */
